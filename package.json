@@ -1,0 +1,42 @@
+{
+  "name": "geektime-column-yeah-my-kanban",
+  "version": "0.14.0",
+  "description": "Recreate oh-my-kanban",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite dev --open",
+    "build": "vite build",
+    "lint": "eslint './src/**/*.{js,jsx}'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:evisong/geektime-column-oh-my-kanban.git"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.5",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "vite": "^3.2.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
